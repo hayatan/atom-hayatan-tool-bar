@@ -1,0 +1,29 @@
+{
+  "name": "tool-bar-hayatan",
+  "main": "./lib/tool-bar-hayatan",
+  "version": "0.0.1",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "tool-bar-hayatan:toggle"
+  },
+  "repository": "https://github.com/atom/tool-bar-hayatan",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "package-dependencies": {
+    "tool-bar": "^0.1.0",
+    "project-manager": "^1.15.11"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0.1.0": "consumeToolBar"
+      }
+    }
+  }
+}
