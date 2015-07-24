@@ -4,9 +4,6 @@
   "version": "0.1.0",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "tool-bar-hayatan:toggle"
-  },
   "repository": "https://github.com/hayatan/atom-hayatan-tool-bar",
   "license": "MIT",
   "engines": {
