@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "tool-bar-hayatan:toggle"
   },
-  "repository": "https://github.com/atom/tool-bar-hayatan",
+  "repository": "https://github.com/hayatan/atom-hayatan-tool-bar",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
