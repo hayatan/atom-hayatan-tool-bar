@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-hayatan",
   "main": "./lib/tool-bar-hayatan",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "hayatan's tool bar",
   "repository": "https://github.com/hayatan/atom-hayatan-tool-bar",
   "license": "MIT",
