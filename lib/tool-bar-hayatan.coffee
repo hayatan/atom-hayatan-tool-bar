@@ -8,15 +8,22 @@ module.exports =
 
   consumeToolBar: (toolBar) ->
     @toolBar = toolBar 'hayatan-tool-bar'
+
+    @toolBar.addButton
+      icon: 'repo'
+      callback: 'project-manager:list-projects'
+      tooltip: 'Projects'
+
+    @toolBar.addButton
+      icon: 'repo-push'
+      callback: 'project-manager:save-project'
+      tooltip: 'Save project'
+
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      icon: 'filing'
-      callback: 'project-manager:toggle'
-      tooltip: 'Projects'
-      iconset: 'ion'
-    @toolBar.addButton
-      icon: 'social-markdown'
+      icon: 'markdown'
       callback: 'markdown-preview:toggle'
       tooltip: 'Markdown プレビュー'
-      iconset: 'ion'
+
+    @toolBar.addSpacer()

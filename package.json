@@ -15,7 +15,7 @@
   "dependencies": {},
   "packageDependencies": {
     "tool-bar": "0.1.1",
-    "project-manager": "1.15.11"
+    "project-manager": "2.6.5"
   },
   "consumedServices": {
     "tool-bar": {
