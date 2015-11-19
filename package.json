@@ -1,18 +1,21 @@
 {
   "name": "tool-bar-hayatan",
   "main": "./lib/tool-bar-hayatan",
-  "version": "0.2.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "0.2.1",
+  "description": "hayatan's tool bar",
   "repository": "https://github.com/hayatan/atom-hayatan-tool-bar",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">0.50.0"
   },
+  "keywords": [
+    "toolbar",
+    "tool-bar"
+  ],
   "dependencies": {},
-  "package-dependencies": {
-    "tool-bar": "^0.1.0",
-    "project-manager": "^1.15.11"
+  "packageDependencies": {
+    "tool-bar": "0.1.1",
+    "project-manager": "1.15.11"
   },
   "consumedServices": {
     "tool-bar": {
